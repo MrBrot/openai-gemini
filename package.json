@@ -1,17 +1,8 @@
 {
+  "name": "gemini-upload-proxy",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "@whatwg-node/server": "0.9",
-     "axios": "^1.6.7"
-  },
-  "devDependencies": {
-    "nodemon": "3"
-  },
-  "scripts": {
-    "start": "node node.mjs",
-    "dev": "nodemon --watch node.mjs --watch src/*.mjs node.mjs",
-    "start:deno": "deno --allow-env --allow-net deno.mjs",
-    "dev:deno": "deno --watch --allow-env --allow-net deno.mjs",
-    "start:bun": "bun bun.mjs",
-    "dev:bun": "bun --watch bun.mjs"
+    "axios": "^1.6.7"
   }
 }
